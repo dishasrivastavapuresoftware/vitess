@@ -1,6 +1,6 @@
 # DO NOT MODIFY: THIS FILE IS GENERATED USING "make generate_ci_workflows"
 
-name: Unit Test (mysql57)
+name: Unit Testing (mysql57)
 on: [push, pull_request]
 concurrency:
   group: format('{0}-{1}', ${{ github.ref }}, 'Unit Test (mysql57)')
